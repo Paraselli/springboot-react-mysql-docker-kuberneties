@@ -1,5 +1,10 @@
 # Node / Frontend
+node_modules/
+node_modules
 **/node_modules/
+**/node_modules/**
+build/
+dist/
 **/build/
 **/dist/
 npm-debug.log*
@@ -9,7 +14,10 @@ yarn-error.log*
 .pnp.js
 
 # Java / Maven
+target/
+target
 **/target/
+**/target/**
 *.class
 *.jar
 *.war
